@@ -20,6 +20,22 @@ function myFunction(){
 (document.getElementById("myh1").setAttribute("class","democlass"));
 alert(document.getElementById("myh1").getAttribute("class"));
 }
+function Onclick(){
+    console.log("Button clicked");
+}
+function Onmouseover(){
+    console.log("Mouse over button");
+}
+function Onmouseout(){
+    console.log("Mouse out of button");
+}
+function Onmousedown(){
+    console.log("Mouse down on button");
+}
+function Onmouseup(){
+    console.log("Mouse moving over button");
+}
+
 
 
 
